@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/styles.css">
+    <title>Technical Documentation</title>
+</head>
+
+<body>
+    <nav id="navbar">
+        <header>Technical Documentation</header>
+        <a class="nav-link" href="#Introduction_to_JavaScript">Introduction to JavaScript</a>
+        <a class="nav-link" href="#Variables">Variables</a>
+        <a class="nav-link" href="#Functions">Functions</a>
+        <a class="nav-link" href="#Loops">Loops</a>
+        <a class="nav-link" href="#Arrays">Arrays</a>
+    </nav>
+    <main id="main-doc">
+        <section class="main-section" id="Introduction_to_JavaScript">
+            <header>Introduction to JavaScript</header>
+            <p>JavaScript is a cross-platform, object-oriented scripting language. It is a small and lightweight
+                language. Inside a host environment (for example, a web browser), JavaScript can be connected to the
+                objects of its environment to provide programmatic control over them.</p>
+            <p>JavaScript contains a standard library of objects, such as Array, Date, and Math, and a core set of language elements such as operators, control structures, and statements. Core JavaScript can be extended
+                for a variety of purposes by supplementing it with additional objects</p>
+            <p>JavaScript is an interpreted language, which means that it doesn't need to be compiled.</p>
+            <p>It is an essential component of modern web applications.</p>
+            <p>It is used for developing interactive and dynamic websites.</p>
+            <code>console.log('Hello, World!');</code>
+            <code>let num = 5;</code>
+            <code>const PI = 3.14159;</code>
+            <li>Variables</li>
+            <li>Functions</li>
+            <li>Loops</li>
+            <li>Arrays</li>
+        </section>
+        <section class="main-section" id="Variables">
+            <header>Variables</header>
+            <p>You use variables as symbolic names for values in your application. The names of variables, called identifiers, conform to certain rules.
+            </p>
+            <p>A JavaScript identifier must start with a letter, underscore (_), or dollar sign ($); subsequent characters can also be digits (0-9). Because JavaScript is case sensitive, letters include the characters "A" through "Z" (uppercase) and the characters "a" through "z" (lowercase).</p>
+            <p>The var keyword is used to declare a variable globally or locally to an entire function.</p>
+            <p>The let keyword allows you to declare a variable with block scope.</p>
+            <p>The const keyword is used to declare a constant whose value cannot be changed once it has been assigned.
+            </p>
+            <code>let name = 'John';</code>
+            <code>var age = 30;</code>
+            <code>const PI = 3.14159;</code>
+            <li>Functions</li>
+            <li>Loops</li>
+            <li>Arrays</li>
+        </section>
+        <section class="main-section" id="Functions">
+            <header>Functions</header>
+            <p>Functions are one of the fundamental building blocks in JavaScript.</p>
+            <p>A function is a block of code that can be defined and then called at a later point in the program.</p>
+            <p>A function definition (also called a function declaration, or function statement) consists of the function keyword </p>
+            <p>Functions can take parameters, which are values that the function uses to perform its tasks.</p>
+            <code>function greet(name) {</code>
+            <code>   return "Hello, " + name + "!";</code>
+            <code>}</code>
+            <code>let result = greet('Alice');</code>
+            <li>Loops</li>
+            <li>Arrays</li>
+        </section>
+        <section class="main-section" id="Loops">
+            <header>Loops</header>
+            <p>Loops are used in JavaScript to execute the same block of code multiple times.</p>
+            <p>There are different types of loops in JavaScript, such as for loops, while loops, and do...while loops.
+            </p>
+            <p>These loops can help you iterate over arrays, perform a set of instructions multiple times, or execute a
+                block of code until a certain condition is met.</p>
+            <code>for (let i = 0; i < 5; i++) {</code>
+            <code>   console.log(i);</code>
+            <code>}</code>
+            <li>Arrays</li>
+        </section>
+        <section class="main-section" id="Arrays">
+            <header>Arrays</header>
+            <p>Arrays are used to store multiple values in a single variable.</p>
+            <p>They are a special type of object that represents an ordered collection of elements.</p>
+            <p>In JavaScript, arrays can hold different types of data, including numbers, strings, and even other
+                arrays.</p>
+            <p>You can access and modify array elements using their index.</p>
+            <code>let fruits = ['apple', 'banana', 'cherry'];</code>
+            <code>fruits.push('date');</code>
+        </section>
+    </main>
+</body>
+
+</html>
